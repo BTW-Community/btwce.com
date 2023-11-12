@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <!-- Link to a minimal CSS framework (Milligram) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/milligram@1.4.1/dist/milligram.min.css">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #333; /* Dark mode background color */
+                color: #fff; /* Dark mode text color */
+            }
+        }
+
+        .content {
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .logo {
+            /* Add your logo styles here */
+            max-width: 100%;
+            height: auto;
+        }
+
+        .links {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .links a {
+            color: var(--text-color);
+            text-decoration: underline; /* Add underline by default */
+            margin: 0 5px; /* Adjusted margin for the text */
+            position: relative;
+        }
+
+        .links a:hover {
+            text-decoration: none; /* Remove underline on hover */
+            color: #007bff; /* Change to a different color on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <img src="https://sargunster.com/btw/Logo.png" alt="Silhouette of a howling wolf inside a general prohibition sign" class="logo">
+        <div class="links">
+            <a href="https://sargunster.com/btw" target="_blank">Wiki</a>
+            <a href="https://sargunster.com/btwforum" target="_blank">Forum</a>
+            <a href="https://discord.gg/wztckS29th" target="_blank">Discord</a>
+            <a href="https://status.ionmedialabs.com/status/btwce" target="_blank">Status</a>
+        </div>
+    </div>
+</body>
+</html>
